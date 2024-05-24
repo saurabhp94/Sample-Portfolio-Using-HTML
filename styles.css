@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding:10px 20px;
+        background-color: rgb(66, 0, 128);
+    }
+    #navname{
+        color: aliceblue;
+    }
+    #navname h2{
+        font-size: large;
+    }
+    #navname h4{
+        font-size: x-small;
+    }
+    
+    #navbar ul {
+    display: flex;
+    
+    }
+    
+    li{
+        padding: 10px;
+        list-style: none;
+    }
+    
+    li a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+    #navbar ul li a:hover{
+        text-decoration: underline;
+        transition: all 0.3s ease-in-out;
+        color: blanchedalmond;
+        font-weight:bold ;
+    }
+    
+    main{
+        padding: 20px 20px;
+      }
+    
+      section{
+          padding-top: 20px;
+      }
+    section h1{
+        color: rgb(66, 0, 128);
+    }
+
+    #aboutme{
+        display: flex;
+        align-items: center;
+    }
+    
+    .skill { 
+        display: inline-block;
+        text-align: center;
+        width: 250px;
+        height: 150px;
+        margin:20px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        background-color: rgb(255, 255, 255);
+      }
+    
+      .skill h2{
+          font-size:2.5vh;
+      }
+      .skill h3{
+        font-size:2vh;
+    }
+    
+    .project{
+        padding-left: 20px;
+    }
+
+    .project h2{
+        font-size: 2.5vh;
+    }
+
+    .project li{
+        font-size: 2vh;
+        list-style:disc;
+    }
+
+    .recommendation {
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    border: 0.5px solid;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: scroll;
+    }
+
+    .recommendation p {
+        font-size: 1.75vh;
+    }
+
+    form h2{
+        font-size: 2.5vh;
+    }
+    form{
+        margin: 10px 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    form #nametext, #textmessage{
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    form button{
+        cursor: pointer;
+        border: 1px solid rgb(66, 0, 128);
+        border-radius: 5px;
+        background-color: white;
+        margin-left: 40%;
+        margin-right: 40%;
+        color: rgb(66, 0, 128);
+    }
+
+    form button:hover{
+        background-color: rgb(66, 0, 128);
+        color: white;
+        
+    }
+
+    footer{
+        padding: 20px;
+        display: flex;
+        flex-direction:row-reverse
+    }
+  
+    footer a{
+        text-decoration: none;
+    }
